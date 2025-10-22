@@ -299,7 +299,7 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @article{your-paper-2025,
-  title={HELM: Hierarchical Embedding Learning Model for Multi-Label Classification},
+  title={HELM},
   author={Your Name},
   journal={Conference/Journal},
   year={2025}
@@ -316,6 +316,3 @@ This project is licensed under the MIT License - see LICENSE file for details.
 - Graph neural networks powered by [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/)
 - Built with [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/)
 
-## Contact
-
-For questions or issues, please open an issue on GitHub or contact [your-email@domain.com].
