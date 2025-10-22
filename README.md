@@ -122,7 +122,7 @@ Located in `configs/dataset/`:
 **Medical**:
 - `chestxray8`: ChestX-ray8
 - `padchest`: PadChest
-- `ethec`: ETHEC (histopathology)
+- `ethec`: ETHEC
 - `hpa`: Human Protein Atlas
 
 ## Repository Structure
