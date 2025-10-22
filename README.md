@@ -109,10 +109,10 @@ Located in `configs/training/`:
 Located in `configs/dataset/`:
 
 **Remote Sensing**:
-- `dfc_15`: DFC-15 (multi-label, 8 classes)
-- `aid`: AID (30 classes)
-- `ucm`: UC Merced (21 classes)
-- `mlrsnet`: MLRSNet (multi-label)
+- `dfc_15`: DFC-15 (8 classes)
+- `aid`: AID (17 classes)
+- `ucm`: UC Merced (17 classes)
+- `mlrsnet`: MLRSNet (60)
 
 **Fine-Grained**:
 - `cub200`: CUB-200-2011 (birds)
