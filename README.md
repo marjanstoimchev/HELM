@@ -1,4 +1,4 @@
-# HELM: Hierarchical Embedding Learning Model
+# HELM: Hierarchical and Explicit Label Modeling
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
