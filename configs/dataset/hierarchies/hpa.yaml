@@ -1,0 +1,68 @@
+name: HPA
+folder_name: hpa
+num_classes: 28
+
+hierarchy:
+    Nucleus-Related Structures:
+      Nucleoplasm: {}
+      Nuclear membrane: {}
+      Nucleoli: {}
+      Nucleoli fibrillar center: {}
+      Nuclear speckles: {}
+      Nuclear bodies: {}
+    Cytoplasm-Related Structures:
+      Cytosol: {}
+      Cytoplasmic bodies: {}
+      Intermediate filaments: {}
+      Actin filaments: {}
+      Focal adhesion sites: {}
+    Organelles:
+      Endoplasmic reticulum: {}
+      Golgi apparatus: {}
+      Mitochondria: {}
+      Peroxisomes: {}
+      Endosomes: {}
+      Lysosomes: {}
+    Microtubule-Related Structures:
+      Microtubules: {}
+      Microtubule ends: {}
+      Cytokinetic bridge: {}
+      Mitotic spindle: {}
+      Microtubule organizing center: {}
+      Centrosome: {}
+    Membrane-Related Structures:
+      Plasma membrane: {}
+      Cell junctions: {}
+    Other Structures:
+      Aggresome: {}
+      Lipid droplets: {}
+      Rods & rings: {}
+leaf_labels:
+  - Nucleoplasm
+  - Nuclear membrane
+  - Nucleoli
+  - Nucleoli fibrillar center
+  - Nuclear speckles
+  - Nuclear bodies
+  - Endoplasmic reticulum
+  - Golgi apparatus
+  - Peroxisomes
+  - Endosomes
+  - Lysosomes
+  - Intermediate filaments
+  - Actin filaments
+  - Focal adhesion sites
+  - Microtubules
+  - Microtubule ends
+  - Cytokinetic bridge
+  - Mitotic spindle
+  - Microtubule organizing center
+  - Centrosome
+  - Lipid droplets
+  - Plasma membrane
+  - Cell junctions
+  - Mitochondria
+  - Aggresome
+  - Cytosol
+  - Cytoplasmic bodies
+  - Rods & rings

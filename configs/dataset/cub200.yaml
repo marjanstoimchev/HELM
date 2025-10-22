@@ -1,0 +1,8 @@
+# CUB-200-2011 Dataset Configuration
+# Caltech-UCSD Birds 200 - Fine-grained bird species classification
+
+name: cub200
+data_dir: ../Datasets/other_datasets/CUB_200_2011
+image_size: 224
+num_workers: 16
+hierarchy_config_dir: configs/dataset/hierarchies

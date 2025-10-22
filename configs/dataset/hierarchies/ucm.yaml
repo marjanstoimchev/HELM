@@ -1,0 +1,114 @@
+name: UC_Merced_LandUse_Multilabel
+folder_name: ucm
+num_classes: 17
+
+hierarchy:
+    1. Artificial surfaces:
+      1.1 Urban fabric:
+        buildings: {}
+        mobile-home: {}
+      1.2 Industrial, commercial, and transport units:
+        1.2.1 Industrial or commercial units:
+          storage tanks: {}
+        1.2.2 Road and rail networks and associated land:
+          cars: {}
+          pavement: {}
+        1.2.3 Port areas:
+          dock: {}
+          ship: {}
+        1.2.4 Airports:
+          airplane: {}
+      1.3 Mine, dump, and construction sites:
+        bare-soil: {}
+      1.4 Artificial, non-agricultural vegetated areas:
+        1.4.2 Sport and leisure facilities:
+          court: {}
+    2. Agricultural areas:
+      2.1 Arable land:
+        field: {}
+    3. Forest and semi-natural areas:
+      3.1 Forests:
+        trees: {}
+      3.2 Shrub and/or herbaceous vegetation associations:
+        chaparral: {}
+        grass: {}
+    5. Water bodies:
+      5.1 Inland waters:
+        water: {}
+      5.2 Marine waters:
+        sand: {}
+        sea: {}
+leaf_labels:
+  - airplane
+  - bare-soil
+  - buildings
+  - cars
+  - chaparral
+  - court
+  - dock
+  - field
+  - grass
+  - mobile-home
+  - pavement
+  - sand
+  - sea
+  - ship
+  - storage tanks
+  - trees
+  - water
+
+
+# name: UC_Merced_LandUse_Multilabel
+# folder_name: ucm
+# num_classes: 17
+
+# hierarchy:
+#   # root:
+#   Artificial Surfaces:
+#     Urban Fabric:
+#       buildings: {}
+#       mobile-home: {}
+#     Industrial, Commercial, and Transport Units:
+#       airplane: {}
+#       cars: {}
+#       court: {}
+#       dock: {}
+#       ship: {}
+#       storage tanks: {}
+#     Road and Rail Networks and Associated Land:
+#       pavement: {}
+#     Mine, Dump, and Construction Sites:
+#       bare-soil: {}
+#   Agricultural Areas:
+#     Arable Land:
+#       field: {}
+#   Forest and Semi-Natural Areas:
+#     Forests:
+#       trees: {}
+#     Shrub and/or Herbaceous Vegetation Associations:
+#       chaparral: {}
+#       grass: {}
+#   Water Bodies:
+#     Inland Waters:
+#       water: {}
+#     Marine Waters:
+#       sea: {}
+#       sand: {}
+# leaf_labels:
+#   - airplane
+#   - bare-soil
+#   - buildings
+#   - cars
+#   - chaparral
+#   - court
+#   - dock
+#   - field
+#   - grass
+#   - mobile-home
+#   - pavement
+#   - sand
+#   - sea
+#   - ship
+#   - storage tanks
+#   - trees
+#   - water

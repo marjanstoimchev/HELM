@@ -1,0 +1,65 @@
+name: NIHChestXray
+folder_name: nihchestxray
+num_classes: 15
+
+hierarchy:
+  Respiratory System Diseases:
+    Lung Parenchymal Diseases:
+      Atelectasis: {}
+      Consolidation: {}
+      Infiltration: {}
+      Edema: {}
+      Emphysema: {}
+      Fibrosis: {}
+      Pneumonia: {}
+      Nodule: {}
+      Mass: {}
+    Pleural and Surrounding Structures:
+      Effusion: {} # Pleural Effusion: {}
+      Pneumothorax: {}
+      Pleural_Thickening: {}
+  Circulatory System Diseases:
+    Cardiovascular Conditions:
+      Cardiomegaly: {}
+  Digestive and Thoracic Conditions:
+    Hernia: {}
+  No Finding: {}
+
+leaf_labels:
+  - Atelectasis
+  - Consolidation
+  - Infiltration
+  - Pneumothorax
+  - Edema
+  - Emphysema
+  - Fibrosis
+  - Effusion
+  - Pneumonia
+  - Pleural_Thickening
+  - Cardiomegaly
+  - Nodule
+  - Mass
+  - Hernia
+  - No Finding
+
+# leaf_labels:
+#   - Atelectasis
+#   - Cardiomegaly
+#   - Consolidation
+#   - Edema
+#   - Effusion
+#   - Emphysema
+#   - Fibrosis
+#   - Hernia
+#   - Infiltration
+#   - Mass
+#   - Nodule
+#   - Pleural_Thickening
+#   - Pneumonia
+#   - Pneumothorax
+#   - Pneumoperitoneum
+#   - Pneumomediastinum
+#   - Subcutaneous Emphysema
+#   - Tortuous Aorta
+#   - Calcification of the Aorta
+#   - No Finding

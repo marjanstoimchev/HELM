@@ -1,0 +1,8 @@
+# DFC-15 Dataset Configuration
+# IEEE Data Fusion Contest 2015 - Multi-label land cover classification
+
+name: dfc_15
+data_dir: ../rs_datasets/mlc/DFC_15
+image_size: 224
+num_workers: 16
+hierarchy_config_dir: configs/dataset/hierarchies

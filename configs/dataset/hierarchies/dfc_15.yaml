@@ -1,0 +1,33 @@
+name: dfc_15
+folder_name: dfc_15
+num_classes: 8
+
+hierarchy:
+  1. Artificial surfaces:
+    1.1 Urban fabric:
+      building: {}
+    1.2 Industrial, commercial, and transport units:
+      1.2.1 Industrial or commercial units:
+        clutter: {}
+      1.2.2 Road and rail networks and associated land:
+        car: {}
+        impervious: {}
+      1.2.3 Port areas:
+        boat: {}
+  3. Forest and semi-natural areas:
+    3.1 Forests:
+      tree: {}
+    3.2 Scrub and/or herbaceous vegetation associations:
+      vegetation: {}
+  5. Water bodies:
+    water: {}
+
+leaf_labels:
+  - impervious
+  - water
+  - clutter
+  - vegetation
+  - building
+  - tree
+  - boat
+  - car

@@ -1,0 +1,43 @@
+# HELM (Hierarchical Embedding Learning Model) Configuration
+# Main configuration file for training and evaluation
+
+defaults:
+  - dataset: dfc_15
+  - training: default
+  - _self_
+
+# Model configuration
+model:
+  backbone: deit_base
+  pretrained_path: null  # Path to pretrained weights (optional)
+  embed_dim: 768
+  num_heads: 12
+  depth: 12
+  patch_size: 16
+  dropout: 0.1
+
+  # Graph configuration
+  use_graph: true
+  graph_type: sage  # Options: sage, gcn, gat
+  graph_hidden_dim: 512
+  graph_layers: 2
+  graph_dropout: 0.3
+
+  # BYOL configuration
+  use_byol: false
+  byol_hidden_dim: 4096
+  byol_projection_dim: 256
+  byol_momentum: 0.996
+
+# Training configuration - loaded from configs/training/*.yaml
+# Do not define training section here, it comes from training config group
+
+# System configuration
+system:
+  seed: 42
+  deterministic: true
+  precision: 16-mixed  # Options: 32, 16-mixed, bf16-mixed
+  accelerator: gpu
+  devices: 1
+  num_sanity_val_steps: 2
+  check_val_every_n_epoch: 5  # Run validation every N epochs (1=every epoch)

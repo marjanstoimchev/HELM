@@ -1,0 +1,1595 @@
+name: ETHEC_Taxonomy
+folder_name: ethec
+num_classes: 705
+hierarchy:
+  Pieridae:
+    Pierinae:
+      Pieris:
+        Pieris_mannii: {}
+        Pieris_bryoniae: {}
+        Pieris_napi: {}
+        Pieris_rapae: {}
+        Pieris_brassicae: {}
+        Pieris_ergane: {}
+        Pieris_cheiranthi: {}
+        Pieris_krueperi: {}
+        Pieris_melete: {}
+        Pieris_nesis: {}
+      Anthocharis:
+        Anthocharis_cardamines: {}
+        Anthocharis_belia: {}
+        Anthocharis_euphenoides: {}
+        Anthocharis_damone: {}
+        Anthocharis_scolymus: {}
+        Anthocharis_gruneri: {}
+        Anthocharis_bieti: {}
+        Anthocharis_thibetana: {}
+        Anthocharis_bambusarum: {}
+      Pontia:
+        Pontia_edusa: {}
+        Pontia_callidice: {}
+        Pontia_daplidice: {}
+        Pontia_chloridice: {}
+      Aporia:
+        Aporia_crataegi: {}
+        Aporia_procris: {}
+        Aporia_nabellica: {}
+        Aporia_potanini: {}
+        Aporia_hippia: {}
+      Colotis:
+        Colotis_fausta: {}
+        Colotis_evagore: {}
+        Colotis_protractus: {}
+        Colotis_phisadia: {}
+      Euchloe:
+        Euchloe_crameri: {}
+        Euchloe_tagis: {}
+        Euchloe_simplonia: {}
+        Euchloe_ausonia: {}
+        Euchloe_charlonia: {}
+        Euchloe_belemia: {}
+        Euchloe_tomyris: {}
+        Euchloe_insularis: {}
+        Euchloe_orientalis: {}
+        Euchloe_transcaspica: {}
+        Euchloe_falloui: {}
+        Euchloe_penia: {}
+        Euchloe_pulverata: {}
+        Euchloe_daphalis: {}
+      Zegris:
+        Zegris_eupheme: {}
+        Zegris_pyrothoe: {}
+        Zegris_fausti: {}
+      Mesapia:
+        Mesapia_peloria: {}
+      Baltia:
+        Baltia_butleri: {}
+        Baltia_shawii: {}
+      Sinopieris:
+        Sinopieris_venata: {}
+        Sinopieris_davidis: {}
+    Coliadinae:
+      Colias:
+        Colias_croceus: {}
+        Colias_alfacariensis: {}
+        Colias_hyale: {}
+        Colias_phicomone: {}
+        Colias_chrysotheme: {}
+        Colias_palaeno: {}
+        Colias_marcopolo: {}
+        Colias_wiskotti: {}
+        Colias_hecla: {}
+        Colias_tyche: {}
+        Colias_balcanica: {}
+        Colias_myrmidone: {}
+        Colias_aurorina: {}
+        Colias_stoliczkana: {}
+        Colias_alpherakii: {}
+        Colias_regia: {}
+        Colias_fieldii: {}
+        Colias_cocandica: {}
+        Colias_chlorocoma: {}
+        Colias_erschoffi: {}
+        Colias_heos: {}
+        Colias_ladakensis: {}
+        Colias_libanotica: {}
+        Colias_erate: {}
+        Colias_caucasica: {}
+        Colias_felderi: {}
+        Colias_eogene: {}
+        Colias_sieversi: {}
+        Colias_christophi: {}
+        Colias_romanovi: {}
+        Colias_diva: {}
+        Colias_staudingeri: {}
+        Colias_thisoa: {}
+        Colias_pelidne: {}
+        Colias_lada: {}
+        Colias_sifanica: {}
+        Colias_nastes: {}
+        Colias_viluiensis: {}
+        Colias_baeckeri: {}
+        Colias_nebulosa: {}
+        Colias_grumi: {}
+        Colias_sagartia: {}
+        Colias_shahfuladi: {}
+        Colias_tamerlana: {}
+        Colias_adelaidae: {}
+        Colias_montium: {}
+      Gonepteryx:
+        Gonepteryx_cleopatra: {}
+        Gonepteryx_rhamni: {}
+        Gonepteryx_cleobule: {}
+        Gonepteryx_amintha: {}
+        Gonepteryx_farinosa: {}
+        Gonepteryx_maxima: {}
+        Gonepteryx_mahaguru: {}
+      Catopsilia:
+        Catopsilia_florella: {}
+    Dismorphiinae:
+      Leptidea:
+        Leptidea_sinapis: {}
+        Leptidea_juvernica: {}
+        Leptidea_duponcheli: {}
+        Leptidea_amurensis: {}
+        Leptidea_morsei: {}
+  Lycaenidae:
+    Polyommatinae:
+      Leptotes:
+        Leptotes_pirithous: {}
+        Leptotes_pirthous: {}
+      Cupido:
+        Cupido_minimus: {}
+        Cupido_argiades: {}
+        Cupido_alcetas: {}
+        Cupido_osiris: {}
+        Cupido_decolorata: {}
+        Cupido_lorquinii: {}
+        Cupido_staudingeri: {}
+      Zizeeria:
+        Zizeeria_knysna: {}
+        Zizeeria_karsandra: {}
+      Polyommatus:
+        Polyommatus_thersites: {}
+        Polyommatus_icarus: {}
+        Polyommatus_dolus: {}
+        Polyommatus_amandus: {}
+        Polyommatus_escheri: {}
+        Polyommatus_dorylas: {}
+        Polyommatus_eros: {}
+        Polyommatus_daphnis: {}
+        Polyommatus_damon: {}
+        Polyommatus_celina: {}
+        Polyommatus_phyllis: {}
+        Polyommatus_iphidamon: {}
+        Polyommatus_stoliczkana: {}
+        Polyommatus_damone: {}
+        Polyommatus_aedon: {}
+        Polyommatus_damonides: {}
+        Polyommatus_ripartii: {}
+        Polyommatus_antidolus: {}
+        Polyommatus_erschoffi: {}
+        Polyommatus_atys: {}
+        Polyommatus_nivescens: {}
+        Polyommatus_golgus: {}
+        Polyommatus_admetus: {}
+        Polyommatus_caeruleus: {}
+        Polyommatus_venus: {}
+        Polyommatus_poseidon: {}
+        Polyommatus_humedasae: {}
+        Polyommatus_firdussii: {}
+        Polyommatus_elbursica: {}
+        Polyommatus_menalcas: {}
+        Polyommatus_myrrha: {}
+      Scolitantides:
+        Scolitantides_orion: {}
+      Plebejus:
+        Plebejus_idas: {}
+        Plebejus_argyrognomon: {}
+        Plebejus_argus: {}
+        Plebejus_eversmanni: {}
+        Plebejus_samudra: {}
+        Plebejus_maracandica: {}
+      Aricia:
+        Aricia_artaxerxes: {}
+        Aricia_agestis: {}
+        Aricia_nicias: {}
+        Aricia_anteros: {}
+        Aricia_isaurica: {}
+        Aricia_montensis: {}
+      Maculinea:
+        Maculinea_rebeli: {}
+        Maculinea_arion: {}
+        Maculinea_teleius: {}
+        Maculinea_nausithous: {}
+        Maculinea_alcon: {}
+      Lysandra:
+        Lysandra_coridon: {}
+        Lysandra_bellargus: {}
+        Lysandra_hispana: {}
+        Lysandra_albicans: {}
+        Lysandra_caelestissima: {}
+        Lysandra_punctifera: {}
+      Cyaniris:
+        Cyaniris_semiargus: {}
+      Agriades:
+        Agriades_optilete: {}
+        Agriades_orbitulus: {}
+        Agriades_glandon: {}
+        Agriades_lehanus: {}
+        Agriades_pheretiades: {}
+      Pseudophilotes:
+        Pseudophilotes_abencerragus: {}
+        Pseudophilotes_baton: {}
+        Pseudophilotes_vicrama: {}
+        Pseudophilotes_panoptes: {}
+        Pseudophilotes_bavius: {}
+      Celastrina:
+        Celastrina_argiolus: {}
+      Iolana:
+        Iolana_iolas: {}
+        Iolana_gigantea: {}
+      Kretania:
+        Kretania_trappi: {}
+        Kretania_pylaon: {}
+        Kretania_martini: {}
+        Kretania_eurypilus: {}
+        Kretania_psylorita: {}
+        Kretania_allardii: {}
+      Glaucopsyche:
+        Glaucopsyche_alexis: {}
+        Glaucopsyche_melanops: {}
+        Glaucopsyche_paphos: {}
+        Glaucopsyche_astraea: {}
+      Eumedonia:
+        Eumedonia_eumedon: {}
+      Neolysandra:
+        Neolysandra_corona: {}
+        Neolysandra_coelestina: {}
+        Neolysandra_ellisoni: {}
+      Lampides:
+        Lampides_boeticus: {}
+      Tarucus:
+        Tarucus_theophrastus: {}
+        Tarucus_balkanica: {}
+      Cyclyrius:
+        Cyclyrius_webbianus: {}
+      Pamiria:
+        Pamiria_omphisa: {}
+        Pamiria_galathea: {}
+      Glabroculus:
+        Glabroculus_cyane: {}
+        Glabroculus_elvira: {}
+      Plebejidea:
+        Plebejidea_loewii: {}
+      Maurus:
+        Maurus_vogelii: {}
+      Caerulea:
+        Caerulea_coeli: {}
+      Azanus:
+        Azanus_jesous: {}
+      Alpherakya:
+        Alpherakya_devanica: {}
+      Pseudozizeeria:
+        Pseudozizeeria_maha: {}
+      Afarsia:
+        Afarsia_morgiana: {}
+    Lycaeninae:
+      Lycaena:
+        Lycaena_tityrus: {}
+        Lycaena_hippothoe: {}
+        Lycaena_virgaureae: {}
+        Lycaena_phlaeas: {}
+        Lycaena_thersamon: {}
+        Lycaena_alciphron: {}
+        Lycaena_dispar: {}
+        Lycaena_helle: {}
+        Lycaena_lampon: {}
+        Lycaena_pang: {}
+        Lycaena_thetis: {}
+        Lycaena_solskyi: {}
+        Lycaena_splendens: {}
+        Lycaena_kasyapa: {}
+        Lycaena_candens: {}
+        Lycaena_ochimus: {}
+        Lycaena_margelanica: {}
+        Lycaena_caspius: {}
+        Lycaena_Tschamut, Tujetsch: {}
+        Lycaena_li: {}
+        Lycaena_asabinus: {}
+      Heliophorus:
+        Heliophorus_tamu: {}
+        Heliophorus_androcles: {}
+        Heliophorus_brahma: {}
+        Heliophorus_epicles: {}
+    Theclinae:
+      Thecla:
+        Thecla_betulae: {}
+      Satyrium:
+        Satyrium_pruni: {}
+        Satyrium_w-album: {}
+        Satyrium_spini: {}
+        Satyrium_ilicis: {}
+        Satyrium_acaciae: {}
+        Satyrium_esculi: {}
+        Satyrium_ledereri: {}
+      Callophrys:
+        Callophrys_rubi: {}
+        Callophrys_avis: {}
+      Neolycaena:
+        Neolycaena_rhymnus: {}
+        Neolycaena_davidi: {}
+      Favonius:
+        Favonius_quercus: {}
+      Laeosopis:
+        Laeosopis_roboris: {}
+      Tomares:
+        Tomares_nogelii: {}
+        Tomares_callimachus: {}
+        Tomares_ballus: {}
+        Tomares_mauretanicus: {}
+        Tomares_romanovi: {}
+      Chrysozephyrus:
+        Chrysozephyrus_smaragdinus: {}
+      Coreana:
+        Coreana_raphaelis: {}
+      Japonica:
+        Japonica_saepestriata: {}
+      Ussuriana:
+        Ussuriana_micahaelis: {}
+      Artopoetes:
+        Artopoetes_pryeri: {}
+    Aphnaeinae:
+      Cigaritis:
+        Cigaritis_allardi: {}
+        Cigaritis_siphax: {}
+        Cigaritis_zohra: {}
+        Cigaritis_cilissa: {}
+  Nymphalidae:
+    Nymphalinae:
+      Melitaea:
+        Melitaea_athalia: {}
+        Melitaea_cinxia: {}
+        Melitaea_didyma: {}
+        Melitaea_parthenoides: {}
+        Melitaea_deione: {}
+        Melitaea_asteria: {}
+        Melitaea_aurelia: {}
+        Melitaea_diamina: {}
+        Melitaea_phoebe: {}
+        Melitaea_varia: {}
+        Melitaea_britomartis: {}
+        Melitaea_trivia: {}
+        Melitaea_acraeina: {}
+        Melitaea_persea: {}
+        Melitaea_nevadensis: {}
+        Melitaea_turanica: {}
+        Melitaea_ambigua: {}
+        Melitaea_chitralensis: {}
+        Melitaea_fergana: {}
+        Melitaea_punica: {}
+        Melitaea_minerva: {}
+        Melitaea_arduinna: {}
+        Melitaea_saxatilis: {}
+        Melitaea_scotosia: {}
+        Melitaea_aetherie: {}
+      Inachis:
+        Inachis_io: {}
+      Euphydryas:
+        Euphydryas_aurinia: {}
+        Euphydryas_cynthia: {}
+        Euphydryas_ichnea: {}
+        Euphydryas_maturna: {}
+        Euphydryas_iduna: {}
+        Euphydryas_sibirica: {}
+        Euphydryas_desfontainii: {}
+        Euphydryas_provincialis: {}
+      Nymphalis:
+        Nymphalis_polychloros: {}
+        Nymphalis_urticae: {}
+        Nymphalis_c-aureum: {}
+        Nymphalis_egea: {}
+        Nymphalis_antiopa: {}
+        Nymphalis_c-album: {}
+        Nymphalis_xanthomelas: {}
+        Nymphalis_ichnusa: {}
+        Nymphalis_l-album: {}
+        Nymphalis_canace: {}
+        Nymphalis_ladakensis: {}
+        Nymphalis_rizana: {}
+      Araschnia:
+        Araschnia_levana: {}
+        Araschnia_burejana: {}
+      Vanessa:
+        Vanessa_atalanta: {}
+        Vanessa_cardui: {}
+        Vanessa_vulcania: {}
+        Vanessa_virginiensis: {}
+        Vanessa_indica: {}
+      Meiltaea:
+        Meiltaea_didyma: {}
+      Junonia:
+        Junonia_hierta: {}
+    Satyrinae:
+      Erebia:
+        Erebia_medusa: {}
+        Erebia_montana: {}
+        Erebia_tyndarus: {}
+        Erebia_melampus: {}
+        Erebia_euryale: {}
+        Erebia_gorge: {}
+        Erebia_mnestra: {}
+        Erebia_pandrose: {}
+        Erebia_alberganus: {}
+        Erebia_pronoe: {}
+        Erebia_flavofasciata: {}
+        Erebia_pluto: {}
+        Erebia_meolans: {}
+        Erebia_aethiops: {}
+        Erebia_oeme: {}
+        Erebia_styx: {}
+        Erebia_neoridas: {}
+        Erebia_manto: {}
+        Erebia_ligea: {}
+        Erebia_pharte: {}
+        Erebia_eriphyle: {}
+        Erebia_epiphron: {}
+        Erebia_cassioides: {}
+        Erebia_triaria: {}
+        Erebia_christi: {}
+        Erebia_claudina: {}
+        Erebia_neriene: {}
+        Erebia_epistygne: {}
+        Erebia_zapateri: {}
+        Erebia_sudetica: {}
+        Erebia_meta: {}
+        Erebia_bubastis: {}
+        Erebia_melas: {}
+        Erebia_erinnyn: {}
+        Erebia_aethiopellus: {}
+        Erebia_ottomana: {}
+        Erebia_palarica: {}
+        Erebia_nivalis: {}
+        Erebia_scipio: {}
+        Erebia_lefebvrei: {}
+        Erebia_rondoui: {}
+        Erebia_rossii: {}
+        Erebia_disa: {}
+        Erebia_theano: {}
+        Erebia_hispania: {}
+        Erebia_turanica: {}
+        Erebia_cyclopius: {}
+        Erebia_wanga: {}
+      Coenonympha:
+        Coenonympha_pamphilus: {}
+        Coenonympha_darwiniana: {}
+        Coenonympha_arcania: {}
+        Coenonympha_gardetta: {}
+        Coenonympha_tullia: {}
+        Coenonympha_hero: {}
+        Coenonympha_glycerion: {}
+        Coenonympha_oedippus: {}
+        Coenonympha_dorus: {}
+        Coenonympha_iphioides: {}
+        Coenonympha_corinna: {}
+        Coenonympha_leander: {}
+        Coenonympha_sunbecca: {}
+        Coenonympha_orientalis: {}
+        Coenonympha_elbana: {}
+        Coenonympha_mongolica: {}
+      Lopinga:
+        Lopinga_achine: {}
+      Oeneis:
+        Oeneis_glacialis: {}
+        Oeneis_magna: {}
+        Oeneis_norna: {}
+        Oeneis_tarpeia: {}
+      Pararge:
+        Pararge_aegeria: {}
+        Pararge_xiphioides: {}
+        Pararge_xiphia: {}
+      Maniola:
+        Maniola_jurtina: {}
+        Maniola_nurag: {}
+      Hyponephele:
+        Hyponephele_lycaon: {}
+        Hyponephele_amardaea: {}
+        Hyponephele_lupina: {}
+        Hyponephele_pulchella: {}
+        Hyponephele_cadusia: {}
+        Hyponephele_pulchra: {}
+        Hyponephele_capella: {}
+        Hyponephele_interposita: {}
+        Hyponephele_davendra: {}
+      Pyronia:
+        Pyronia_tithonus: {}
+        Pyronia_cecilia: {}
+        Pyronia_bathseba: {}
+        Pyronia_janiroides: {}
+      Chazara:
+        Chazara_briseis: {}
+        Chazara_persephone: {}
+        Chazara_bischoffii: {}
+        Chazara_prieuri: {}
+        Chazara_enervata: {}
+        Chazara_kaufmanni: {}
+      Melanargia:
+        Melanargia_galathea: {}
+        Melanargia_ines: {}
+        Melanargia_pherusa: {}
+        Melanargia_russiae: {}
+        Melanargia_leda: {}
+        Melanargia_lachesis: {}
+        Melanargia_occitanica: {}
+        Melanargia_larissa: {}
+        Melanargia_titea: {}
+        Melanargia_arge: {}
+        Melanargia_halimede: {}
+        Melanargia_parce: {}
+        Melanargia_meridionalis: {}
+        Melanargia_hylata: {}
+        Melanargia_lugens: {}
+      Lasiommata:
+        Lasiommata_megera: {}
+        Lasiommata_maera: {}
+        Lasiommata_petropolitana: {}
+        Lasiommata_paramegaera: {}
+      Satyrus:
+        Satyrus_ferula: {}
+        Satyrus_actaea: {}
+        Satyrus_parthicus: {}
+      Hipparchia:
+        Hipparchia_statilinus: {}
+        Hipparchia_genava: {}
+        Hipparchia_fagi: {}
+        Hipparchia_wyssii: {}
+        Hipparchia_semele: {}
+        Hipparchia_fidia: {}
+        Hipparchia_aristaeus: {}
+        Hipparchia_neomiris: {}
+        Hipparchia_fatua: {}
+        Hipparchia_syriaca: {}
+        Hipparchia_parisatis: {}
+        Hipparchia_azorina: {}
+        Hipparchia_stulta: {}
+      Aphantopus:
+        Aphantopus_hyperantus: {}
+      Brintesia:
+        Brintesia_circe: {}
+      Minois:
+        Minois_dryas: {}
+      Pseudochazara:
+        Pseudochazara_schahrudensis: {}
+        Pseudochazara_telephassa: {}
+        Pseudochazara_beroe: {}
+        Pseudochazara_cingovskii: {}
+        Pseudochazara_graeca: {}
+        Pseudochazara_pelopea: {}
+        Pseudochazara_amalthea: {}
+        Pseudochazara_anthelea: {}
+        Pseudochazara_geyeri: {}
+        Pseudochazara_hippolyte: {}
+        Pseudochazara_mniszechii: {}
+        Pseudochazara_alpina: {}
+        Pseudochazara_orestes: {}
+      Arethusana:
+        Arethusana_arethusa: {}
+      Kirinia:
+        Kirinia_climene: {}
+        Kirinia_eversmanni: {}
+        Kirinia_roxelana: {}
+      Neope:
+        Neope_goschkevitschii: {}
+      Berberia:
+        Berberia_abdelkader: {}
+        Berberia_lambessanus: {}
+      Proterebia:
+        Proterebia_afra: {}
+      Davidina:
+        Davidina_armandi: {}
+      Ypthima:
+        Ypthima_baldus: {}
+        Ypthima_asterope: {}
+      Karanasa:
+        Karanasa_modesta: {}
+        Karanasa_huebneri: {}
+        Karanasa_abramovi: {}
+      Loxerebia:
+        Loxerebia_saxicola: {}
+      Boeberia:
+        Boeberia_parmenio: {}
+      Paroeneis:
+        Paroeneis_palaearcticus: {}
+        Paroeneis_pumilis: {}
+      Mycalesis:
+        Mycalesis_francisca: {}
+        Mycalesis_gotama: {}
+      Paralasa:
+        Paralasa_hades: {}
+      Lethe:
+        Lethe_diana: {}
+        Lethe_sicelis: {}
+      Proteerbia:
+        Proteerbia_afra: {}
+    Apaturinae:
+      Apatura:
+        Apatura_ilia: {}
+        Apatura_iris: {}
+        Apatura_metis: {}
+      Euapatura:
+        Euapatura_mirza: {}
+      Timelaea:
+        Timelaea_albescens: {}
+      Hestina:
+        Hestina_japonica: {}
+      Mimathyma:
+        Mimathyma_schrenckii: {}
+        Mimathyma_nycteis: {}
+      Thaleropis:
+        Thaleropis_ionia: {}
+    Heliconiinae:
+      Speyeria:
+        Speyeria_aglaja: {}
+        Speyeria_clara: {}
+      Argynnis:
+        Argynnis_paphia: {}
+        Argynnis_pandora: {}
+      Clossiana:
+        Clossiana_titania: {}
+        Clossiana_selene: {}
+        Clossiana_dia: {}
+        Clossiana_euphrosyne: {}
+        Clossiana_thore: {}
+        Clossiana_freija: {}
+        Clossiana_iphigenia: {}
+        Clossiana_chariclea: {}
+      Boloria:
+        Boloria_napaea: {}
+        Boloria_aquilonaris: {}
+        Boloria_pales: {}
+        Boloria_graeca: {}
+        Boloria_sipora: {}
+      Proclossiana:
+        Proclossiana_eunomia: {}
+      Fabriciana:
+        Fabriciana_niobe: {}
+        Fabriciana_adippe: {}
+        Fabriciana_elisa: {}
+        Fabriciana_jainadeva: {}
+        Fabriciana_auresiana: {}
+        Fabriciana_nerippe: {}
+      Issoria:
+        Issoria_lathonia: {}
+      Brenthis:
+        Brenthis_daphne: {}
+        Brenthis_hecate: {}
+        Brenthis_ino: {}
+      Argyronome:
+        Argyronome_laodice: {}
+        Argyronome_ruslana: {}
+      Cethosia:
+        Cethosia_biblis: {}
+      Childrena:
+        Childrena_childreni: {}
+      Kuekenthaliella:
+        Kuekenthaliella_eugenia: {}
+    Limenitidinae:
+      Limenitis:
+        Limenitis_camilla: {}
+        Limenitis_populi: {}
+        Limenitis_reducta: {}
+        Limenitis_sydyi: {}
+      Neptis:
+        Neptis_rivularis: {}
+        Neptis_sappho: {}
+        Neptis_pryeri: {}
+        Neptis_alwina: {}
+      Lelecella:
+        Lelecella_limenitoides: {}
+      Parasarpa:
+        Parasarpa_albomaculata: {}
+      Athyma:
+        Athyma_punctata: {}
+        Athyma_perius: {}
+    Libytheinae:
+      Libythea:
+        Libythea_celtis: {}
+    Charaxinae:
+      Charaxes:
+        Charaxes_jasius: {}
+    Danainae:
+      Danaus:
+        Danaus_chrysippus: {}
+        Danaus_plexippus: {}
+  Hesperiidae:
+    Hesperiinae:
+      Hesperia:
+        Hesperia_comma: {}
+      Thymelicus:
+        Thymelicus_lineola: {}
+        Thymelicus_acteon: {}
+        Thymelicus_sylvestris: {}
+        Thymelicus_hamza: {}
+      Ochlodes:
+        Ochlodes_venata: {}
+      Gegenes:
+        Gegenes_nostrodamus: {}
+    Pyrginae:
+      Spialia:
+        Spialia_sertorius: {}
+        Spialia_orbifer: {}
+      Pyrgus:
+        Pyrgus_serratulae: {}
+        Pyrgus_malvae: {}
+        Pyrgus_carlinae: {}
+        Pyrgus_alveus: {}
+        Pyrgus_malvoides: {}
+        Pyrgus_carthami: {}
+        Pyrgus_cacaliae: {}
+        Pyrgus_andromedae: {}
+        Pyrgus_armoricanus: {}
+        Pyrgus_sidae: {}
+        Pyrgus_onopordi: {}
+        Pyrgus_cirsii: {}
+        Pyrgus_warrenensis: {}
+        Pyrgus_cinarae: {}
+        Pyrgus_accretus: {}
+        Pyrgus_bellieri: {}
+        Pyrgus_centaureae: {}
+      Carcharodus:
+        Carcharodus_lavatherae: {}
+        Carcharodus_baeticus: {}
+        Carcharodus_alceae: {}
+        Carcharodus_floccifera: {}
+      Erynnis:
+        Erynnis_tages: {}
+      Muschampia:
+        Muschampia_proto: {}
+        Muschampia_cribrellum: {}
+        Muschampia_tessellum: {}
+    Heteropterinae:
+      Carterocephalus:
+        Carterocephalus_palaemon: {}
+        Carterocephalus_dieckmanni: {}
+        Carterocephalus_silvicola: {}
+      Heteropterus:
+        Heteropterus_morpheus: {}
+  Papilionidae:
+    Parnassiinae:
+      Parnassius:
+        Parnassius_apollo: {}
+        Parnassius_sacerdos: {}
+        Parnassius_staudingeri: {}
+        Parnassius_jacquemonti: {}
+        Parnassius_mnemosyne: {}
+        Parnassius_smintheus: {}
+        Parnassius_epaphus: {}
+        Parnassius_stubbendorfii: {}
+        Parnassius_delphius: {}
+        Parnassius_actius: {}
+        Parnassius_charltontonius: {}
+        Parnassius_cephalus: {}
+        Parnassius_orleans: {}
+        Parnassius_bremeri: {}
+        Parnassius_nomion: {}
+        Parnassius_tianschanicus: {}
+        Parnassius_stoliczkanus: {}
+        Parnassius_apollonius: {}
+        Parnassius_charltonius: {}
+        Parnassius_nordmanni: {}
+        Parnassius_eversmannii: {}
+        Parnassius_glacialis: {}
+        Parnassius_acco: {}
+        Parnassius_hardwickii: {}
+        Parnassius_szechenyii: {}
+        Parnassius_stenosemus: {}
+        Parnassius_cardinal: {}
+        Parnassius_autocrator: {}
+        Parnassius_maharaja: {}
+        Parnassius_phoebus: {}
+        Parnassius_simo: {}
+        Parnassius_tibetanus: {}
+        Parnassius_imperator: {}
+        Parnassius_honrathi: {}
+        Parnassius_mercurius: {}
+        Parnassius_maximinus: {}
+        Parnassius_clodius: {}
+        Parnassius_acdestis: {}
+        Parnassius_tenedius: {}
+        Parnassius_boedromius: {}
+        Parnassius_augustus: {}
+        Parnassius_behrii: {}
+        Parnassius_ruckbeili: {}
+        Parnassius_loxias: {}
+        Parnassius_ariadne: {}
+        Parnassius_inopinatus: {}
+        Parnassius_geminus: {}
+        Parnassius_patricius: {}
+        Parnassius_andreji: {}
+        Parnassius_simonius: {}
+      Zerynthia:
+        Zerynthia_polyxena: {}
+        Zerynthia_rumina: {}
+      Sericinus:
+        Sericinus_montela: {}
+      Allancastria:
+        Allancastria_cerisyi: {}
+        Allancastria_caucasica: {}
+        Allancastria_deyrollei: {}
+        Allancastria_cretica: {}
+      Bhutanitis:
+        Bhutanitis_thaidina: {}
+        Bhutanitis_lidderdalii: {}
+        Bhutanitis_mansfieldi: {}
+      Luehdorfia:
+        Luehdorfia_japonica: {}
+        Luehdorfia_chinensis: {}
+        Luehdorfia_puziloi: {}
+      Archon:
+        Archon_apollinus: {}
+        Archon_apollinaris: {}
+    Papilioninae:
+      Papilio:
+        Papilio_machaon: {}
+        Papilio_maackii: {}
+        Papilio_protenor: {}
+        Papilio_helenus: {}
+        Papilio_alexanor: {}
+        Papilio_polytes: {}
+        Papilio_arcturus: {}
+        Papilio_xuthus: {}
+        Papilio_bootes: {}
+        Papilio_dehaani: {}
+        Papilio_paris: {}
+        Papilio_bianor: {}
+        Papilio_krishna: {}
+        Papilio_macilentus: {}
+        Papilio_castor: {}
+        Papilio_hospiton: {}
+        Papilio_hopponis: {}
+        Papilio_memnon: {}
+        Papilio_thaiwanus: {}
+        Papilio_chaon: {}
+      Atrophaneura:
+        Atrophaneura_plutonius: {}
+        Atrophaneura_horishana: {}
+        Atrophaneura_impediens: {}
+        Atrophaneura_alcinous: {}
+        Atrophaneura_mencius: {}
+        Atrophaneura_nevilli: {}
+        Atrophaneura_polyeuctes: {}
+      Iphiclides:
+        Iphiclides_feisthamelii: {}
+        Iphiclides_podalirius: {}
+        Iphiclides_podalirinus: {}
+      Graphium:
+        Graphium_sarpedon: {}
+        Graphium_cloanthus: {}
+      Arisbe:
+        Arisbe_alebion: {}
+        Arisbe_leechi: {}
+        Arisbe_tamerlanus: {}
+        Arisbe_parus: {}
+        Arisbe_eurous: {}
+        Arisbe_mandarinus: {}
+        Arisbe_doson: {}
+        Arisbe_mullah: {}
+      Teinopalpus:
+        Teinopalpus_imperialis: {}
+        Teinopalpus_aureus: {}
+      Agehana:
+        Agehana_elwesi: {}
+      Meandrusa:
+        Meandrusa_sciron: {}
+  Riodinidae:
+    Nemeobiinae:
+      Hamearis:
+        Hamearis_lucina: {}
+      Polycaena:
+        Polycaena_tamerlana: {}
+leaf_labels:
+- Afarsia_morgiana
+- Agehana_elwesi
+- Agriades_glandon
+- Agriades_lehanus
+- Agriades_optilete
+- Agriades_orbitulus
+- Agriades_pheretiades
+- Allancastria_caucasica
+- Allancastria_cerisyi
+- Allancastria_cretica
+- Allancastria_deyrollei
+- Alpherakya_devanica
+- Anthocharis_bambusarum
+- Anthocharis_belia
+- Anthocharis_bieti
+- Anthocharis_cardamines
+- Anthocharis_damone
+- Anthocharis_euphenoides
+- Anthocharis_gruneri
+- Anthocharis_scolymus
+- Anthocharis_thibetana
+- Apatura_ilia
+- Apatura_iris
+- Apatura_metis
+- Aphantopus_hyperantus
+- Aporia_crataegi
+- Aporia_hippia
+- Aporia_nabellica
+- Aporia_potanini
+- Aporia_procris
+- Araschnia_burejana
+- Araschnia_levana
+- Archon_apollinaris
+- Archon_apollinus
+- Arethusana_arethusa
+- Argynnis_pandora
+- Argynnis_paphia
+- Argyronome_laodice
+- Argyronome_ruslana
+- Aricia_agestis
+- Aricia_anteros
+- Aricia_artaxerxes
+- Aricia_isaurica
+- Aricia_montensis
+- Aricia_nicias
+- Arisbe_alebion
+- Arisbe_doson
+- Arisbe_eurous
+- Arisbe_leechi
+- Arisbe_mandarinus
+- Arisbe_mullah
+- Arisbe_parus
+- Arisbe_tamerlanus
+- Artopoetes_pryeri
+- Athyma_perius
+- Athyma_punctata
+- Atrophaneura_alcinous
+- Atrophaneura_horishana
+- Atrophaneura_impediens
+- Atrophaneura_mencius
+- Atrophaneura_nevilli
+- Atrophaneura_plutonius
+- Atrophaneura_polyeuctes
+- Azanus_jesous
+- Baltia_butleri
+- Baltia_shawii
+- Berberia_abdelkader
+- Berberia_lambessanus
+- Bhutanitis_lidderdalii
+- Bhutanitis_mansfieldi
+- Bhutanitis_thaidina
+- Boeberia_parmenio
+- Boloria_aquilonaris
+- Boloria_graeca
+- Boloria_napaea
+- Boloria_pales
+- Boloria_sipora
+- Brenthis_daphne
+- Brenthis_hecate
+- Brenthis_ino
+- Brintesia_circe
+- Caerulea_coeli
+- Callophrys_avis
+- Callophrys_rubi
+- Carcharodus_alceae
+- Carcharodus_baeticus
+- Carcharodus_floccifera
+- Carcharodus_lavatherae
+- Carterocephalus_dieckmanni
+- Carterocephalus_palaemon
+- Carterocephalus_silvicola
+- Catopsilia_florella
+- Celastrina_argiolus
+- Cethosia_biblis
+- Charaxes_jasius
+- Chazara_bischoffii
+- Chazara_briseis
+- Chazara_enervata
+- Chazara_kaufmanni
+- Chazara_persephone
+- Chazara_prieuri
+- Childrena_childreni
+- Chrysozephyrus_smaragdinus
+- Cigaritis_allardi
+- Cigaritis_cilissa
+- Cigaritis_siphax
+- Cigaritis_zohra
+- Clossiana_chariclea
+- Clossiana_dia
+- Clossiana_euphrosyne
+- Clossiana_freija
+- Clossiana_iphigenia
+- Clossiana_selene
+- Clossiana_thore
+- Clossiana_titania
+- Coenonympha_arcania
+- Coenonympha_corinna
+- Coenonympha_darwiniana
+- Coenonympha_dorus
+- Coenonympha_elbana
+- Coenonympha_gardetta
+- Coenonympha_glycerion
+- Coenonympha_hero
+- Coenonympha_iphioides
+- Coenonympha_leander
+- Coenonympha_mongolica
+- Coenonympha_oedippus
+- Coenonympha_orientalis
+- Coenonympha_pamphilus
+- Coenonympha_sunbecca
+- Coenonympha_tullia
+- Colias_adelaidae
+- Colias_alfacariensis
+- Colias_alpherakii
+- Colias_aurorina
+- Colias_baeckeri
+- Colias_balcanica
+- Colias_caucasica
+- Colias_chlorocoma
+- Colias_christophi
+- Colias_chrysotheme
+- Colias_cocandica
+- Colias_croceus
+- Colias_diva
+- Colias_eogene
+- Colias_erate
+- Colias_erschoffi
+- Colias_felderi
+- Colias_fieldii
+- Colias_grumi
+- Colias_hecla
+- Colias_heos
+- Colias_hyale
+- Colias_lada
+- Colias_ladakensis
+- Colias_libanotica
+- Colias_marcopolo
+- Colias_montium
+- Colias_myrmidone
+- Colias_nastes
+- Colias_nebulosa
+- Colias_palaeno
+- Colias_pelidne
+- Colias_phicomone
+- Colias_regia
+- Colias_romanovi
+- Colias_sagartia
+- Colias_shahfuladi
+- Colias_sieversi
+- Colias_sifanica
+- Colias_staudingeri
+- Colias_stoliczkana
+- Colias_tamerlana
+- Colias_thisoa
+- Colias_tyche
+- Colias_viluiensis
+- Colias_wiskotti
+- Colotis_evagore
+- Colotis_fausta
+- Colotis_phisadia
+- Colotis_protractus
+- Coreana_raphaelis
+- Cupido_alcetas
+- Cupido_argiades
+- Cupido_decolorata
+- Cupido_lorquinii
+- Cupido_minimus
+- Cupido_osiris
+- Cupido_staudingeri
+- Cyaniris_semiargus
+- Cyclyrius_webbianus
+- Danaus_chrysippus
+- Danaus_plexippus
+- Davidina_armandi
+- Erebia_aethiopellus
+- Erebia_aethiops
+- Erebia_alberganus
+- Erebia_bubastis
+- Erebia_cassioides
+- Erebia_christi
+- Erebia_claudina
+- Erebia_cyclopius
+- Erebia_disa
+- Erebia_epiphron
+- Erebia_epistygne
+- Erebia_erinnyn
+- Erebia_eriphyle
+- Erebia_euryale
+- Erebia_flavofasciata
+- Erebia_gorge
+- Erebia_hispania
+- Erebia_lefebvrei
+- Erebia_ligea
+- Erebia_manto
+- Erebia_medusa
+- Erebia_melampus
+- Erebia_melas
+- Erebia_meolans
+- Erebia_meta
+- Erebia_mnestra
+- Erebia_montana
+- Erebia_neoridas
+- Erebia_neriene
+- Erebia_nivalis
+- Erebia_oeme
+- Erebia_ottomana
+- Erebia_palarica
+- Erebia_pandrose
+- Erebia_pharte
+- Erebia_pluto
+- Erebia_pronoe
+- Erebia_rondoui
+- Erebia_rossii
+- Erebia_scipio
+- Erebia_styx
+- Erebia_sudetica
+- Erebia_theano
+- Erebia_triaria
+- Erebia_turanica
+- Erebia_tyndarus
+- Erebia_wanga
+- Erebia_zapateri
+- Erynnis_tages
+- Euapatura_mirza
+- Euchloe_ausonia
+- Euchloe_belemia
+- Euchloe_charlonia
+- Euchloe_crameri
+- Euchloe_daphalis
+- Euchloe_falloui
+- Euchloe_insularis
+- Euchloe_orientalis
+- Euchloe_penia
+- Euchloe_pulverata
+- Euchloe_simplonia
+- Euchloe_tagis
+- Euchloe_tomyris
+- Euchloe_transcaspica
+- Eumedonia_eumedon
+- Euphydryas_aurinia
+- Euphydryas_cynthia
+- Euphydryas_desfontainii
+- Euphydryas_ichnea
+- Euphydryas_iduna
+- Euphydryas_maturna
+- Euphydryas_provincialis
+- Euphydryas_sibirica
+- Fabriciana_adippe
+- Fabriciana_auresiana
+- Fabriciana_elisa
+- Fabriciana_jainadeva
+- Fabriciana_nerippe
+- Fabriciana_niobe
+- Favonius_quercus
+- Gegenes_nostrodamus
+- Glabroculus_cyane
+- Glabroculus_elvira
+- Glaucopsyche_alexis
+- Glaucopsyche_astraea
+- Glaucopsyche_melanops
+- Glaucopsyche_paphos
+- Gonepteryx_amintha
+- Gonepteryx_cleobule
+- Gonepteryx_cleopatra
+- Gonepteryx_farinosa
+- Gonepteryx_mahaguru
+- Gonepteryx_maxima
+- Gonepteryx_rhamni
+- Graphium_cloanthus
+- Graphium_sarpedon
+- Hamearis_lucina
+- Heliophorus_androcles
+- Heliophorus_brahma
+- Heliophorus_epicles
+- Heliophorus_tamu
+- Hesperia_comma
+- Hestina_japonica
+- Heteropterus_morpheus
+- Hipparchia_aristaeus
+- Hipparchia_azorina
+- Hipparchia_fagi
+- Hipparchia_fatua
+- Hipparchia_fidia
+- Hipparchia_genava
+- Hipparchia_neomiris
+- Hipparchia_parisatis
+- Hipparchia_semele
+- Hipparchia_statilinus
+- Hipparchia_stulta
+- Hipparchia_syriaca
+- Hipparchia_wyssii
+- Hyponephele_amardaea
+- Hyponephele_cadusia
+- Hyponephele_capella
+- Hyponephele_davendra
+- Hyponephele_interposita
+- Hyponephele_lupina
+- Hyponephele_lycaon
+- Hyponephele_pulchella
+- Hyponephele_pulchra
+- Inachis_io
+- Iolana_gigantea
+- Iolana_iolas
+- Iphiclides_feisthamelii
+- Iphiclides_podalirinus
+- Iphiclides_podalirius
+- Issoria_lathonia
+- Japonica_saepestriata
+- Junonia_hierta
+- Karanasa_abramovi
+- Karanasa_huebneri
+- Karanasa_modesta
+- Kirinia_climene
+- Kirinia_eversmanni
+- Kirinia_roxelana
+- Kretania_allardii
+- Kretania_eurypilus
+- Kretania_martini
+- Kretania_psylorita
+- Kretania_pylaon
+- Kretania_trappi
+- Kuekenthaliella_eugenia
+- Laeosopis_roboris
+- Lampides_boeticus
+- Lasiommata_maera
+- Lasiommata_megera
+- Lasiommata_paramegaera
+- Lasiommata_petropolitana
+- Lelecella_limenitoides
+- Leptidea_amurensis
+- Leptidea_duponcheli
+- Leptidea_juvernica
+- Leptidea_morsei
+- Leptidea_sinapis
+- Leptotes_pirithous
+- Leptotes_pirthous
+- Lethe_diana
+- Lethe_sicelis
+- Libythea_celtis
+- Limenitis_camilla
+- Limenitis_populi
+- Limenitis_reducta
+- Limenitis_sydyi
+- Lopinga_achine
+- Loxerebia_saxicola
+- Luehdorfia_chinensis
+- Luehdorfia_japonica
+- Luehdorfia_puziloi
+- Lycaena_Tschamut, Tujetsch
+- Lycaena_alciphron
+- Lycaena_asabinus
+- Lycaena_candens
+- Lycaena_caspius
+- Lycaena_dispar
+- Lycaena_helle
+- Lycaena_hippothoe
+- Lycaena_kasyapa
+- Lycaena_lampon
+- Lycaena_li
+- Lycaena_margelanica
+- Lycaena_ochimus
+- Lycaena_pang
+- Lycaena_phlaeas
+- Lycaena_solskyi
+- Lycaena_splendens
+- Lycaena_thersamon
+- Lycaena_thetis
+- Lycaena_tityrus
+- Lycaena_virgaureae
+- Lysandra_albicans
+- Lysandra_bellargus
+- Lysandra_caelestissima
+- Lysandra_coridon
+- Lysandra_hispana
+- Lysandra_punctifera
+- Maculinea_alcon
+- Maculinea_arion
+- Maculinea_nausithous
+- Maculinea_rebeli
+- Maculinea_teleius
+- Maniola_jurtina
+- Maniola_nurag
+- Maurus_vogelii
+- Meandrusa_sciron
+- Meiltaea_didyma
+- Melanargia_arge
+- Melanargia_galathea
+- Melanargia_halimede
+- Melanargia_hylata
+- Melanargia_ines
+- Melanargia_lachesis
+- Melanargia_larissa
+- Melanargia_leda
+- Melanargia_lugens
+- Melanargia_meridionalis
+- Melanargia_occitanica
+- Melanargia_parce
+- Melanargia_pherusa
+- Melanargia_russiae
+- Melanargia_titea
+- Melitaea_acraeina
+- Melitaea_aetherie
+- Melitaea_ambigua
+- Melitaea_arduinna
+- Melitaea_asteria
+- Melitaea_athalia
+- Melitaea_aurelia
+- Melitaea_britomartis
+- Melitaea_chitralensis
+- Melitaea_cinxia
+- Melitaea_deione
+- Melitaea_diamina
+- Melitaea_didyma
+- Melitaea_fergana
+- Melitaea_minerva
+- Melitaea_nevadensis
+- Melitaea_parthenoides
+- Melitaea_persea
+- Melitaea_phoebe
+- Melitaea_punica
+- Melitaea_saxatilis
+- Melitaea_scotosia
+- Melitaea_trivia
+- Melitaea_turanica
+- Melitaea_varia
+- Mesapia_peloria
+- Mimathyma_nycteis
+- Mimathyma_schrenckii
+- Minois_dryas
+- Muschampia_cribrellum
+- Muschampia_proto
+- Muschampia_tessellum
+- Mycalesis_francisca
+- Mycalesis_gotama
+- Neolycaena_davidi
+- Neolycaena_rhymnus
+- Neolysandra_coelestina
+- Neolysandra_corona
+- Neolysandra_ellisoni
+- Neope_goschkevitschii
+- Neptis_alwina
+- Neptis_pryeri
+- Neptis_rivularis
+- Neptis_sappho
+- Nymphalis_antiopa
+- Nymphalis_c-album
+- Nymphalis_c-aureum
+- Nymphalis_canace
+- Nymphalis_egea
+- Nymphalis_ichnusa
+- Nymphalis_l-album
+- Nymphalis_ladakensis
+- Nymphalis_polychloros
+- Nymphalis_rizana
+- Nymphalis_urticae
+- Nymphalis_xanthomelas
+- Ochlodes_venata
+- Oeneis_glacialis
+- Oeneis_magna
+- Oeneis_norna
+- Oeneis_tarpeia
+- Pamiria_galathea
+- Pamiria_omphisa
+- Papilio_alexanor
+- Papilio_arcturus
+- Papilio_bianor
+- Papilio_bootes
+- Papilio_castor
+- Papilio_chaon
+- Papilio_dehaani
+- Papilio_helenus
+- Papilio_hopponis
+- Papilio_hospiton
+- Papilio_krishna
+- Papilio_maackii
+- Papilio_machaon
+- Papilio_macilentus
+- Papilio_memnon
+- Papilio_paris
+- Papilio_polytes
+- Papilio_protenor
+- Papilio_thaiwanus
+- Papilio_xuthus
+- Paralasa_hades
+- Pararge_aegeria
+- Pararge_xiphia
+- Pararge_xiphioides
+- Parasarpa_albomaculata
+- Parnassius_acco
+- Parnassius_acdestis
+- Parnassius_actius
+- Parnassius_andreji
+- Parnassius_apollo
+- Parnassius_apollonius
+- Parnassius_ariadne
+- Parnassius_augustus
+- Parnassius_autocrator
+- Parnassius_behrii
+- Parnassius_boedromius
+- Parnassius_bremeri
+- Parnassius_cardinal
+- Parnassius_cephalus
+- Parnassius_charltonius
+- Parnassius_charltontonius
+- Parnassius_clodius
+- Parnassius_delphius
+- Parnassius_epaphus
+- Parnassius_eversmannii
+- Parnassius_geminus
+- Parnassius_glacialis
+- Parnassius_hardwickii
+- Parnassius_honrathi
+- Parnassius_imperator
+- Parnassius_inopinatus
+- Parnassius_jacquemonti
+- Parnassius_loxias
+- Parnassius_maharaja
+- Parnassius_maximinus
+- Parnassius_mercurius
+- Parnassius_mnemosyne
+- Parnassius_nomion
+- Parnassius_nordmanni
+- Parnassius_orleans
+- Parnassius_patricius
+- Parnassius_phoebus
+- Parnassius_ruckbeili
+- Parnassius_sacerdos
+- Parnassius_simo
+- Parnassius_simonius
+- Parnassius_smintheus
+- Parnassius_staudingeri
+- Parnassius_stenosemus
+- Parnassius_stoliczkanus
+- Parnassius_stubbendorfii
+- Parnassius_szechenyii
+- Parnassius_tenedius
+- Parnassius_tianschanicus
+- Parnassius_tibetanus
+- Paroeneis_palaearcticus
+- Paroeneis_pumilis
+- Pieris_brassicae
+- Pieris_bryoniae
+- Pieris_cheiranthi
+- Pieris_ergane
+- Pieris_krueperi
+- Pieris_mannii
+- Pieris_melete
+- Pieris_napi
+- Pieris_nesis
+- Pieris_rapae
+- Plebejidea_loewii
+- Plebejus_argus
+- Plebejus_argyrognomon
+- Plebejus_eversmanni
+- Plebejus_idas
+- Plebejus_maracandica
+- Plebejus_samudra
+- Polycaena_tamerlana
+- Polyommatus_admetus
+- Polyommatus_aedon
+- Polyommatus_amandus
+- Polyommatus_antidolus
+- Polyommatus_atys
+- Polyommatus_caeruleus
+- Polyommatus_celina
+- Polyommatus_damon
+- Polyommatus_damone
+- Polyommatus_damonides
+- Polyommatus_daphnis
+- Polyommatus_dolus
+- Polyommatus_dorylas
+- Polyommatus_elbursica
+- Polyommatus_eros
+- Polyommatus_erschoffi
+- Polyommatus_escheri
+- Polyommatus_firdussii
+- Polyommatus_golgus
+- Polyommatus_humedasae
+- Polyommatus_icarus
+- Polyommatus_iphidamon
+- Polyommatus_menalcas
+- Polyommatus_myrrha
+- Polyommatus_nivescens
+- Polyommatus_phyllis
+- Polyommatus_poseidon
+- Polyommatus_ripartii
+- Polyommatus_stoliczkana
+- Polyommatus_thersites
+- Polyommatus_venus
+- Pontia_callidice
+- Pontia_chloridice
+- Pontia_daplidice
+- Pontia_edusa
+- Proclossiana_eunomia
+- Proteerbia_afra
+- Proterebia_afra
+- Pseudochazara_alpina
+- Pseudochazara_amalthea
+- Pseudochazara_anthelea
+- Pseudochazara_beroe
+- Pseudochazara_cingovskii
+- Pseudochazara_geyeri
+- Pseudochazara_graeca
+- Pseudochazara_hippolyte
+- Pseudochazara_mniszechii
+- Pseudochazara_orestes
+- Pseudochazara_pelopea
+- Pseudochazara_schahrudensis
+- Pseudochazara_telephassa
+- Pseudophilotes_abencerragus
+- Pseudophilotes_baton
+- Pseudophilotes_bavius
+- Pseudophilotes_panoptes
+- Pseudophilotes_vicrama
+- Pseudozizeeria_maha
+- Pyrgus_accretus
+- Pyrgus_alveus
+- Pyrgus_andromedae
+- Pyrgus_armoricanus
+- Pyrgus_bellieri
+- Pyrgus_cacaliae
+- Pyrgus_carlinae
+- Pyrgus_carthami
+- Pyrgus_centaureae
+- Pyrgus_cinarae
+- Pyrgus_cirsii
+- Pyrgus_malvae
+- Pyrgus_malvoides
+- Pyrgus_onopordi
+- Pyrgus_serratulae
+- Pyrgus_sidae
+- Pyrgus_warrenensis
+- Pyronia_bathseba
+- Pyronia_cecilia
+- Pyronia_janiroides
+- Pyronia_tithonus
+- Satyrium_acaciae
+- Satyrium_esculi
+- Satyrium_ilicis
+- Satyrium_ledereri
+- Satyrium_pruni
+- Satyrium_spini
+- Satyrium_w-album
+- Satyrus_actaea
+- Satyrus_ferula
+- Satyrus_parthicus
+- Scolitantides_orion
+- Sericinus_montela
+- Sinopieris_davidis
+- Sinopieris_venata
+- Speyeria_aglaja
+- Speyeria_clara
+- Spialia_orbifer
+- Spialia_sertorius
+- Tarucus_balkanica
+- Tarucus_theophrastus
+- Teinopalpus_aureus
+- Teinopalpus_imperialis
+- Thaleropis_ionia
+- Thecla_betulae
+- Thymelicus_acteon
+- Thymelicus_hamza
+- Thymelicus_lineola
+- Thymelicus_sylvestris
+- Timelaea_albescens
+- Tomares_ballus
+- Tomares_callimachus
+- Tomares_mauretanicus
+- Tomares_nogelii
+- Tomares_romanovi
+- Ussuriana_micahaelis
+- Vanessa_atalanta
+- Vanessa_cardui
+- Vanessa_indica
+- Vanessa_virginiensis
+- Vanessa_vulcania
+- Ypthima_asterope
+- Ypthima_baldus
+- Zegris_eupheme
+- Zegris_fausti
+- Zegris_pyrothoe
+- Zerynthia_polyxena
+- Zerynthia_rumina
+- Zizeeria_karsandra
+- Zizeeria_knysna

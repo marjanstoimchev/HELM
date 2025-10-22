@@ -1,0 +1,54 @@
+name: ChestX-ray8
+folder_name: chestxray8
+num_classes: 20
+
+hierarchy:
+  Respiratory System Diseases:
+    Lung Parenchymal Diseases:
+      Infiltration: {}
+      Nodule: {}
+      Mass: {}
+      Consolidation: {}
+      Pneumonia: {}
+      Emphysema: {}
+      Fibrosis: {}
+      Atelectasis: {}
+    Pleural and Surrounding Structures:
+      Effusion: {}
+      Pneumothorax: {}
+      Pleural Thickening: {}
+      Subcutaneous Emphysema: {}
+  Circulatory System Diseases:
+    Cardiovascular Conditions:
+      Cardiomegaly: {}
+      Tortuous Aorta: {}
+      Calcification of the Aorta: {}
+      Edema: {}
+  Digestive and Thoracic Conditions:
+    Hernia: {}
+  Injury, Poisoning, and Certain Other External Causes:
+    Pneumomediastinum: {}
+    Pneumoperitoneum: {}
+  No Finding:
+    No Finding: {}
+leaf_labels:
+  - Atelectasis
+  - Cardiomegaly
+  - Consolidation
+  - Edema
+  - Effusion
+  - Emphysema
+  - Fibrosis
+  - Hernia
+  - Infiltration
+  - Mass
+  - Nodule
+  - Pleural Thickening
+  - Pneumonia
+  - Pneumothorax
+  - Pneumoperitoneum
+  - Pneumomediastinum
+  - Subcutaneous Emphysema
+  - Tortuous Aorta
+  - Calcification of the Aorta
+  - No Finding

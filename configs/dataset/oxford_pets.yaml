@@ -1,0 +1,8 @@
+# Oxford-IIIT Pets Dataset Configuration
+# 37 pet breeds classification
+
+name: oxford_pets
+data_dir: ../Datasets/other_datasets/oxford_pets_37
+image_size: 224
+num_workers: 16
+hierarchy_config_dir: configs/dataset/hierarchies

@@ -1,0 +1,8 @@
+# UC Merced Dataset Configuration
+# UC Merced Land Use Dataset - 21 scene classes
+
+name: ucm
+data_dir: null  # HuggingFace dataset (auto-downloaded)
+image_size: 224
+num_workers: 16
+hierarchy_config_dir: configs/dataset/hierarchies

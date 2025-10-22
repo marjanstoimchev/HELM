@@ -1,0 +1,60 @@
+# HMLC_flat + BYOL: Hierarchical Multi-Label Classification with BYOL
+# Uses full hierarchy labels (18 classes) with classification + BYOL loss
+# No graph learning, semi-supervised mode
+
+# Optimizer
+lr: 1.0e-4
+head_lr: 1.0e-4
+weight_decay: 0.01
+optimizer: adamw
+
+# Scheduler
+use_scheduler: true
+scheduler_type: cosine
+warmup_epochs: 5
+min_lr: 1.0e-6
+
+# Training parameters
+max_epochs: 200
+min_epochs: 10
+batch_size: 32
+accumulate_grad_batches: 1
+gradient_clip_val: 1.0
+
+# Loss configuration - classification + BYOL
+loss:
+  use_classification_loss: true
+  use_graph_loss: false
+  use_byol_loss: true
+
+  classification_weight: 1.0
+  graph_weight: 0.0
+  byol_weight: 1.0
+
+  classification_loss_type: bce
+  graph_loss_type: bce
+
+# Use full hierarchy labels
+use_full_hierarchy: true
+
+# Semi-supervised settings (FIXED: must be true when using BYOL)
+semi_supervised: true
+labeled_ratio: 0.3
+augmentation_strength: heavy
+
+# Callbacks
+early_stopping:
+  enabled: true
+  patience: 20
+  monitor: val_loss
+  mode: min
+
+checkpoint:
+  save_top_k: 3
+  monitor: val_loss
+  mode: min
+  save_last: true
+
+log_every_n_steps: 10
+save_dir: outputs
+experiment_name: helm_experiment

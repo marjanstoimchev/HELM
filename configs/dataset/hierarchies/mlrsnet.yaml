@@ -1,0 +1,325 @@
+# name: MLRSNet
+# folder_name: mlrsnet
+# num_classes: 60
+
+# hierarchy:
+#   Artificial surfaces:
+#     Urban fabric:
+#       Continuous urban fabric:
+#         dense residential area: {}
+#       Discontinuous urban fabric:
+#         sparse residential area: {}
+#         mobile home: {}
+#         terrace: {}
+#       Green urban areas:
+#         park: {}
+#     Industrial, commercial and transport units:
+#       Industrial or commercial units:
+#         factory: {}
+#         greenhouse: {}
+#         containers: {}
+#         tanks: {}
+#         transmission tower: {}
+#         wind turbine: {}
+#       Road and rail networks and associated land:
+#         bridge: {}
+#         crosswalk: {}
+#         freeway: {}
+#         intersection: {}
+#         overpass: {}
+#         parking lot: {}
+#         parkway: {}
+#         pavement: {}
+#         railway: {}
+#         railway station: {}
+#         road: {}
+#         roundabout: {}
+#       Port areas:
+#         dock: {}
+#         harbor: {}
+#         ships: {}
+#       Airports:
+#         airport: {}
+#         airplane: {}
+#         runway: {}
+#     Mine, dump and construction sites:
+#       Mineral extraction sites:
+#         bare soil: {}
+#     Artificial, non-agricultural vegetated areas:
+#       Sport and leisure facilities:
+#         baseball diamond: {}
+#         basketball court: {}
+#         football field: {}
+#         golf course: {}
+#         stadium: {}
+#         swimming pool: {}
+#         tennis court: {}
+#         track: {}
+#         trail: {}
+#     Buildings:
+#       buildings: {}
+#       cars: {}
+#   Agricultural areas:
+#     Arable land:
+#       Non-irrigated arable land:
+#         field: {}
+#   Forest and semi-natural areas:
+#     Forests:
+#       forest: {}
+#       trees: {}
+#     Shrub and/or herbaceous vegetation associations:
+#       Sclerophyllous vegetation:
+#         chaparral: {}
+#         grass: {}
+#     Open spaces with little or no vegetation:
+#       Beaches, dunes, and sand plains:
+#         beach: {}
+#         sand: {}
+#       Bare rock:
+#         mountain: {}
+#       Sparsely vegetated areas:
+#         desert: {}
+#       Glaciers and perpetual snow:
+#         snow: {}
+#         snowberg: {}
+#   Wetlands:
+#     wetland: {}
+#   Water bodies:
+#     Inland waters:
+#       Water courses:
+#         river: {}
+#       water bodies:
+#         lake: {}
+#         water: {}
+#     Marine waters:
+#       sea: {}
+#   Natural landforms:
+#     gully: {}
+#     island: {}
+#   Atmospheric conditions:
+#     cloud: {}
+# leaf_labels:
+#   - airplane
+#   - airport 
+#   - bare soil
+#   - baseball diamond 
+#   - basketball court 
+#   - beach
+#   - bridge 
+#   - buildings
+#   - cars 
+#   - cloud
+#   - containers 
+#   - crosswalk 
+#   - dense residential area
+#   - desert 
+#   - dock 
+#   - factory 
+#   - field 
+#   - football field
+#   - forest
+#   - freeway 
+#   - golf course 
+#   - grass 
+#   - greenhouse 
+#   - gully 
+#   - harbor 
+#   - intersection 
+#   - island
+#   - lake 
+#   - mobile home
+#   - mountain 
+#   - overpass 
+#   - park 
+#   - parking lot
+#   - parkway 
+#   - pavement 
+#   - railway 
+#   - railway station 
+#   - river
+#   - road 
+#   - roundabout 
+#   - runway 
+#   - sand 
+#   - sea 
+#   - ships
+#   - snow 
+#   - snowberg
+#   - sparse residential area
+#   - stadium
+#   - swimming pool 
+#   - tanks 
+#   - tennis court 
+#   - terrace 
+#   - track
+#   - trail 
+#   - transmission tower 
+#   - trees 
+#   - water 
+#   - chaparral
+#   - wetland 
+#   - wind turbine
+
+
+name: MLRSNet
+folder_name: mlrsnet
+num_classes: 60
+
+hierarchy:
+    1. Artificial surfaces:
+      1.1 Urban fabric:
+        1.1.1 Continuous urban fabric:
+          dense residential area: {}
+        1.1.2 Discontinuous urban fabric:
+          sparse residential area: {}
+          terrace: {}
+          mobile home: {}
+        1.1.3 Green urban areas:
+          park: {}
+        1.1.4 Buildings (generic):
+          buildings: {}
+      1.2 Industrial, commercial and transport units:
+        1.2.1 Industrial or commercial units:
+          factory: {}
+          greenhouse: {}
+          containers: {}
+          tanks: {}
+          transmission tower: {}
+          wind turbine: {}
+        1.2.2 Road and rail networks and associated land:
+          bridge: {}
+          crosswalk: {}
+          freeway: {}
+          intersection: {}
+          overpass: {}
+          parking lot: {}
+          parkway: {}
+          pavement: {}
+          railway: {}
+          railway station: {}
+          road: {}
+          roundabout: {}
+          cars: {}
+        1.2.3 Port areas:
+          dock: {}
+          harbor: {}
+          ships: {}
+        1.2.4 Airports:
+          airport: {}
+          airplane: {}
+          runway: {}
+      1.3 Mine, dump, and construction sites:
+        1.3.1 Mineral extraction sites:
+          bare soil: {}
+      1.4 Artificial, non-agricultural vegetated areas:
+        1.4.2 Sport and leisure facilities:
+          baseball diamond: {}
+          basketball court: {}
+          football field: {}
+          golf course: {}
+          stadium: {}
+          swimming pool: {}
+          tennis court: {}
+          track: {}
+          trail: {}
+    2. Agricultural areas:
+      2.1 Arable land:
+        2.1.1 Non-irrigated arable land:
+          field: {}
+    3. Forest and semi-natural areas:
+      3.1 Forests:
+        forest: {}
+        trees: {}
+      3.2 Shrub and/or herbaceous vegetation associations:
+        3.2.1 Sclerophyllous vegetation:
+          chaparral: {}
+          grass: {}
+      3.3 Open spaces with little or no vegetation:
+        3.3.1 Beaches, dunes, and sand plains:
+          beach: {}
+          sand: {}
+        3.3.2 Bare rock:
+          mountain: {}
+        3.3.3 Sparsely vegetated areas:
+          desert: {}
+        3.3.4 Glaciers and perpetual snow:
+          snow: {}
+          snowberg: {}
+    4. Wetlands:
+      wetland: {}
+    5. Water bodies:
+      5.1 Inland waters:
+        5.1.1 Water courses:
+          river: {}
+        5.1.2 Water bodies:
+          lake: {}
+          water: {}
+      5.2 Marine waters:
+        sea: {}
+    6. Natural landforms:
+      gully: {}
+      island: {}
+    7. Atmospheric conditions:
+      cloud: {}
+
+leaf_labels:
+  - airplane
+  - airport
+  - bare soil
+  - baseball diamond
+  - basketball court
+  - beach
+  - bridge
+  - buildings
+  - cars
+  - cloud
+  - containers
+  - crosswalk
+  - dense residential area
+  - desert
+  - dock
+  - factory
+  - field
+  - football field
+  - forest
+  - freeway
+  - golf course
+  - grass
+  - greenhouse
+  - gully
+  - harbor
+  - intersection
+  - island
+  - lake
+  - mobile home
+  - mountain
+  - overpass
+  - park
+  - parking lot
+  - parkway
+  - pavement
+  - railway
+  - railway station
+  - river
+  - road
+  - roundabout
+  - runway
+  - sand
+  - sea
+  - ships
+  - snow
+  - snowberg
+  - sparse residential area
+  - stadium
+  - swimming pool
+  - tanks
+  - tennis court
+  - terrace
+  - track
+  - trail
+  - transmission tower
+  - trees
+  - water
+  - chaparral
+  - wetland
+  - wind turbine

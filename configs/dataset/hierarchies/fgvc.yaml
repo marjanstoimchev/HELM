@@ -1,0 +1,258 @@
+name: FGVC_Aircraft
+folder_name: fgvc-aircraft
+num_classes: 100
+
+hierarchy:
+  Airbus:
+    A300:
+      A300B4: {}
+    A310: {}
+    A320 Family:
+      A318: {}
+      A319: {}
+      A320: {}
+      A321: {}
+    A330:
+      A330-200: {}
+      A330-300: {}
+    A340:
+      A340-200: {}
+      A340-300: {}
+      A340-500: {}
+      A340-600: {}
+    A380: {}
+
+  Boeing:
+    Boeing 707:
+      707-320: {}
+    Boeing 717: {}
+    Boeing 727:
+      727-200: {}
+    Boeing 737:
+      737-200: {}
+      737-300: {}
+      737-400: {}
+      737-500: {}
+      737-600: {}
+      737-700: {}
+      737-800: {}
+      737-900: {}
+    Boeing 747:
+      747-100: {}
+      747-200: {}
+      747-300: {}
+      747-400: {}
+    Boeing 757:
+      757-200: {}
+      757-300: {}
+    Boeing 767:
+      767-200: {}
+      767-300: {}
+      767-400: {}
+    Boeing 777:
+      777-200: {}
+      777-300: {}
+  McDonnell Douglas:
+    DC-9:
+      DC-9-30: {}
+    DC-10: {}
+    MD-11: {}
+    MD-80 Family:
+      MD-80: {}
+      MD-87: {}
+    MD-90: {}
+    F/A-18: {}
+  Embraer:
+    EMB-120: {}
+    Embraer E-Jet:
+      E-170: {}
+      E-190: {}
+      E-195: {}
+    Embraer ERJ 145:
+      ERJ 135: {}
+      ERJ 145: {}
+    Embraer Legacy 600: {}
+  Bombardier Aerospace:
+    CRJ Series:
+      CRJ-200: {}
+      CRJ-700: {}
+      CRJ-900: {}
+    Challenger 600: {}
+    Dash 8:
+      DHC-8-100: {}
+      DHC-8-300: {}
+    Global Express: {}
+  ATR:
+    ATR-42: {}
+    ATR-72: {}
+  Fokker:
+    Fokker 50: {}
+    Fokker 70: {}
+    Fokker 100: {}
+  British Aerospace:
+    BAE 146:
+      BAE 146-200: {}
+      BAE 146-300: {}
+    BAE-125: {}
+    Hawk T1: {}
+  Cessna:
+    Cessna 172: {}
+    Cessna 208: {}
+    Cessna Citation:
+      Cessna 525: {}
+      Cessna 560: {}
+  Beechcraft:
+    Beechcraft 1900: {}
+    King Air:
+      Model B200: {}
+  Gulfstream Aerospace:
+    Gulfstream IV: {}
+    Gulfstream V: {}
+  Dassault Aviation:
+    Falcon 2000: {}
+    Falcon 900: {}
+  Cirrus Aircraft:
+    SR-20: {}
+  Dornier:
+    Dornier 328: {}
+  Piper:
+    PA-28: {}
+  Robin:
+    DR-400: {}
+  Fairchild:
+    Metroliner: {}
+  Lockheed Corporation:
+    C-130: {}
+    L-1011: {}
+  Lockheed Martin:
+    F-16:
+      F-16A/B: {}
+  Eurofighter:
+    Eurofighter Typhoon: {}
+  Panavia:
+    Tornado: {}
+  Douglas Aircraft Company:
+    C-47: {}
+    DC-3: {}
+    DC-6: {}
+    DC-8: {}
+  Antonov:
+    An-12: {}
+  Ilyushin:
+    Il-76: {}
+  Tupolev:
+    Tu-134: {}
+    Tu-154: {}
+  Yakovlev:
+    Yak-42: {}
+  Supermarine:
+    Spitfire: {}
+  Saab:
+    Saab 340: {}
+    Saab 2000: {}
+  de Havilland:
+    DH-82: {}
+    DHC-1: {}
+    DHC-6: {}
+
+leaf_labels:
+  - 707-320
+  - 727-200
+  - 737-200
+  - 737-300
+  - 737-400
+  - 737-500
+  - 737-600
+  - 737-700
+  - 737-800
+  - 737-900
+  - 747-100
+  - 747-200
+  - 747-300
+  - 747-400
+  - 757-200
+  - 757-300
+  - 767-200
+  - 767-300
+  - 767-400
+  - 777-200
+  - 777-300
+  - A300B4
+  - A310
+  - A318
+  - A319
+  - A320
+  - A321
+  - A330-200
+  - A330-300
+  - A340-200
+  - A340-300
+  - A340-500
+  - A340-600
+  - A380
+  - ATR-42
+  - ATR-72
+  - An-12
+  - BAE 146-200
+  - BAE 146-300
+  - BAE-125
+  - Beechcraft 1900
+  - Boeing 717
+  - C-130
+  - C-47
+  - CRJ-200
+  - CRJ-700
+  - CRJ-900
+  - Cessna 172
+  - Cessna 208
+  - Cessna 525
+  - Cessna 560
+  - Challenger 600
+  - DC-10
+  - DC-3
+  - DC-6
+  - DC-8
+  - DC-9-30
+  - DH-82
+  - DHC-1
+  - DHC-6
+  - DHC-8-100
+  - DHC-8-300
+  - DR-400
+  - Dornier 328
+  - E-170
+  - E-190
+  - E-195
+  - EMB-120
+  - ERJ 135
+  - ERJ 145
+  - Embraer Legacy 600
+  - Eurofighter Typhoon
+  - F-16A/B
+  - F/A-18
+  - Falcon 2000
+  - Falcon 900
+  - Fokker 100
+  - Fokker 50
+  - Fokker 70
+  - Global Express
+  - Gulfstream IV
+  - Gulfstream V
+  - Hawk T1
+  - Il-76
+  - L-1011
+  - MD-11
+  - MD-80
+  - MD-87
+  - MD-90
+  - Metroliner
+  - Model B200
+  - PA-28
+  - SR-20
+  - Saab 2000
+  - Saab 340
+  - Spitfire
+  - Tornado
+  - Tu-134
+  - Tu-154
+  - Yak-42

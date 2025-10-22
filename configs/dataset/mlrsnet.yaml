@@ -1,0 +1,8 @@
+# MLRSNet Dataset Configuration
+# Multi-Label Remote Sensing Dataset
+
+name: mlrsnet
+data_dir: null  # HuggingFace dataset (auto-downloaded)
+image_size: 224
+num_workers: 16
+hierarchy_config_dir: configs/dataset/hierarchies
