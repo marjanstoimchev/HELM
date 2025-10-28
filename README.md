@@ -293,18 +293,8 @@ Expected output:
 ✅ TEST 4: Complete Forward Pass - PASSED
 ```
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{your-paper-2025,
-  title={HELM},
-  author={Your Name},
-  journal={Conference/Journal},
-  year={2025}
-}
-```
+## Authors of the paper
+Marjan Stoimchev, Boshko Koloski, Jurica Levatić, Dragi Kocev, Sašo Džeroski
 
 ## License
 
