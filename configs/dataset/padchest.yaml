@@ -1,0 +1,60 @@
+name: PadChest
+folder_name: padchest
+num_classes: 19  # Add one for "normal"
+
+hierarchy:
+  normal_:
+    normal: {}
+  abnormal:
+    pulmonary abnormality:
+      opacity:
+        infiltrates:
+          interstitial pattern:
+            ground glass pattern: {}
+          alveolar pattern:
+            consolidation: {}
+        atelectasis:
+          lobar atelectasis: {}
+          laminar atelectasis: {}
+      bullas: {}
+      pleural thickening:
+        apical pleural thickening: {}
+        calcified pleural thickening: {}
+    pulmonary nodules and masses:
+      mass:
+        pulmonary mass: {}
+      nodule: {}
+      hilar enlargement:
+        adenopathy: {}
+        vascular hilar enlargement: {}
+      granuloma: {}
+    cardiac abnormality:
+      aortic disease:
+        aortic atheromatosis: {}
+        aortic elongation:
+          descendent aortic elongation: {}
+          aortic button enlargement: {}
+          supra aortic elongation: {}
+      cardiomegaly: {}
+    bone lesion: {}
+
+leaf_labels:
+  - normal
+  - bone lesion
+  - bullas
+  - ground glass pattern
+  - consolidation
+  - lobar atelectasis
+  - laminar atelectasis
+  - apical pleural thickening
+  - calcified pleural thickening
+  - pulmonary mass
+  - nodule
+  - adenopathy
+  - vascular hilar enlargement
+  - granuloma
+  - cardiomegaly
+  - aortic atheromatosis
+  - descendent aortic elongation
+  - aortic button enlargement
+  - supra aortic elongation

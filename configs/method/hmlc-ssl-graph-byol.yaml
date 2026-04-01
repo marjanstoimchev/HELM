@@ -1,0 +1,5 @@
+name: hmlc-ssl-graph-byol
+learning_task: hmlc
+training_mode: ssl
+apply_edges: true
+apply_byol: true

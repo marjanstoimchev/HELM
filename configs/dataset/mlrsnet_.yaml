@@ -1,0 +1,184 @@
+1:
+  name: Artificial surfaces
+  11:
+    name: Urban fabric
+    111:
+      name: Continuous urban fabric
+      1111: dense residential area
+    112:
+      name: Discontinuous urban fabric
+      1121: sparse residential area
+      1122: buildings
+      1123: mobile home
+      1124: terrace
+  12:
+    name: Industrial, commercial and transport units
+    121:
+      name: Industrial or commercial units
+      1211: factory
+      1212: containers
+      1213: tanks
+    122:
+      name: Road and rail networks and associated land
+      1221: freeway
+      1222: railway
+      1223: railway station
+    123:
+      name: Port areas
+      1231: harbor
+      1232: dock
+      1233: ships
+    124:
+      name: Airports
+      1241: airport
+      1242: airplane
+      1243: runway
+  13:
+    name: Mine, dump and construction sites
+    131:
+      name: Mineral extraction sites
+      1311: bare soil
+  14:
+    name: Artificial, non-agricultural vegetated areas
+    141:
+      name: Green urban areas
+      1411: park
+    142:
+      name: Sport and leisure facilities
+      1421: golf course
+      1422: stadium
+      1423: swimming pool
+      1424: baseball diamond
+      1425: basketball court
+      1426: football field
+      1427: tennis court
+      1428: track
+
+2:
+  name: Agricultural areas
+  21:
+    name: Arable land
+    211:
+      name: Non-irrigated arable land
+      2111: field
+  22:
+    name: Permanent crops
+    221:
+      name: Vineyards
+    222:
+      name: Fruit trees and berry plantations
+    223:
+      name: Olive groves
+  23:
+    name: Pastures
+    231:
+      name: Pastures
+      2311: grass
+
+3:
+  name: Forest and semi natural areas
+  31:
+    name: Forests
+    311:
+      name: Broad-leaved forest
+    312:
+      name: Coniferous forest
+    313:
+      name: Mixed forest
+      3131: forest
+      3132: trees
+  32:
+    name: Scrub and/or herbaceous vegetation associations
+    321:
+      name: Natural grasslands
+    322:
+      name: Moors and heathland
+    323:
+      name: Sclerophyllous vegetation
+      3231: chaparral
+    324:
+      name: Transitional woodland-shrub
+  33:
+    name: Open spaces with little or no vegetation
+    331:
+      name: Beaches, dunes, sands
+      3311: beach
+      3312: sand
+    332:
+      name: Bare rocks
+    333:
+      name: Sparsely vegetated areas
+      3331: desert
+    334:
+      name: Burnt areas
+    335:
+      name: Glaciers and perpetual snow
+      3351: snow
+      3352: snowberg
+
+4:
+  name: Wetlands
+  41:
+    name: Inland wetlands
+    411:
+      name: Inland marshes
+      4111: wetland
+    412:
+      name: Peat bogs
+  42:
+    name: Maritime wetlands
+    421:
+      name: Salt marshes
+    422:
+      name: Salines
+    423:
+      name: Intertidal flats
+
+5:
+  name: Water bodies
+  51:
+    name: Inland waters
+    511:
+      name: Water courses
+      5111: river
+    512:
+      name: Water bodies
+      5121: lake
+      5122: water
+  52:
+    name: Marine waters
+    521:
+      name: Coastal lagoons
+    522:
+      name: Estuaries
+    523:
+      name: Sea and ocean
+      5231: sea
+      5232: island
+
+6:
+  name: Additional categories (not in original CORINE)
+  61:
+    name: Transportation networks
+    611: bridge
+    612: cars
+    613: crosswalk
+    614: intersection
+    615: overpass
+    616: parking lot
+    617: parkway
+    618: pavement
+    619: road
+    6110: roundabout
+    6111: trail
+  62:
+    name: Natural phenomena
+    621: cloud
+    622: gully
+  63:
+    name: Infrastructure
+    631: transmission tower
+    632: wind turbine
+  64:
+    name: Topography
+    641: mountain

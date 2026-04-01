@@ -1,0 +1,5 @@
+name: hmlc-sl-graph-byol
+learning_task: hmlc
+training_mode: sl
+apply_edges: true
+apply_byol: true

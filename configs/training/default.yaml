@@ -1,0 +1,20 @@
+epochs: 100
+min_epochs: 5
+patience: 5
+lr: 1e-4
+head_lr: 1e-4
+max_lr: 3e-4
+apply_scheduler: true
+lr_schedule_patience: 5
+accumulate_grad_batches: 5
+deterministic: true
+log_every_n_steps: 1
+
+batch_size_map:
+  1: 4
+  5: 16
+  10: 16
+  25: 16
+  50: 32
+  75: 32
+  100: 16

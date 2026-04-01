@@ -1,0 +1,58 @@
+# ── Python ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Environment ─────────────────────────────────────────────────────────
+.env
+.venv/
+env/
+venv/
+*.env
+
+# ── IDE ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ── Jupyter ──────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+!notebooks/*.ipynb
+
+# ── Training outputs ────────────────────────────────────────────────────
+saved_models/
+newest_saved_models/
+newest_results/
+results/
+outputs/
+multirun/
+lightning_logs/
+wandb/
+runs/
+logs/
+*.ckpt
+
+# ── Data (large files) ──────────────────────────────────────────────────
+Datasets/
+*.npy
+*.h5
+*.hdf5
+*.csv
+!configs/**/*.csv
+
+# ── Misc ─────────────────────────────────────────────────────────────────
+*.log
+*.tar.gz
+*.zip
+dinov2/
+stat_test_figures/
+.pytest_cache/

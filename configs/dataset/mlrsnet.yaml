@@ -1,0 +1,161 @@
+name: MLRSNet
+folder_name: mlrsnet
+num_classes: 60
+
+hierarchy:
+  Artificial surfaces:
+    Urban fabric:
+      Continuous urban fabric:
+        dense residential area: {}
+      Discontinuous urban fabric:
+        sparse residential area: {}
+        mobile home: {}
+        terrace: {}
+      Green urban areas:
+        park: {}
+    Industrial, commercial and transport units:
+      Industrial or commercial units:
+        factory: {}
+        greenhouse: {}
+        containers: {}
+        tanks: {}
+        transmission tower: {}
+        wind turbine: {}
+      Road and rail networks and associated land:
+        bridge: {}
+        crosswalk: {}
+        freeway: {}
+        intersection: {}
+        overpass: {}
+        parking lot: {}
+        parkway: {}
+        pavement: {}
+        railway: {}
+        railway station: {}
+        road: {}
+        roundabout: {}
+      Port areas:
+        dock: {}
+        harbor: {}
+        ships: {}
+      Airports:
+        airport: {}
+        airplane: {}
+        runway: {}
+    Mine, dump and construction sites:
+      Mineral extraction sites:
+        bare soil: {}
+    Artificial, non-agricultural vegetated areas:
+      Sport and leisure facilities:
+        baseball diamond: {}
+        basketball court: {}
+        football field: {}
+        golf course: {}
+        stadium: {}
+        swimming pool: {}
+        tennis court: {}
+        track: {}
+        trail: {}
+    Buildings:
+      buildings: {}
+      cars: {}
+  Agricultural areas:
+    Arable land:
+      Non-irrigated arable land:
+        field: {}
+  Forest and semi-natural areas:
+    Forests:
+      forest: {}
+      trees: {}
+    Shrub and/or herbaceous vegetation associations:
+      Sclerophyllous vegetation:
+        chaparral: {}
+        grass: {}
+    Open spaces with little or no vegetation:
+      Beaches, dunes, and sand plains:
+        beach: {}
+        sand: {}
+      Bare rock:
+        mountain: {}
+      Sparsely vegetated areas:
+        desert: {}
+      Glaciers and perpetual snow:
+        snow: {}
+        snowberg: {}
+  Wetlands:
+    wetland: {}
+  Water bodies:
+    Inland waters:
+      Water courses:
+        river: {}
+      water bodies:
+        lake: {}
+        water: {}
+    Marine waters:
+      sea: {}
+  Natural landforms:
+    gully: {}
+    island: {}
+  Atmospheric conditions:
+    cloud: {}
+leaf_labels:
+  - airplane
+  - airport 
+  - bare soil
+  - baseball diamond 
+  - basketball court 
+  - beach
+  - bridge 
+  - buildings
+  - cars 
+  - cloud
+  - containers 
+  - crosswalk 
+  - dense residential area
+  - desert 
+  - dock 
+  - factory 
+  - field 
+  - football field
+  - forest
+  - freeway 
+  - golf course 
+  - grass 
+  - greenhouse 
+  - gully 
+  - harbor 
+  - intersection 
+  - island
+  - lake 
+  - mobile home
+  - mountain 
+  - overpass 
+  - park 
+  - parking lot
+  - parkway 
+  - pavement 
+  - railway 
+  - railway station 
+  - river
+  - road 
+  - roundabout 
+  - runway 
+  - sand 
+  - sea 
+  - ships
+  - snow 
+  - snowberg
+  - sparse residential area
+  - stadium
+  - swimming pool 
+  - tanks 
+  - tennis court 
+  - terrace 
+  - track
+  - trail 
+  - transmission tower 
+  - trees 
+  - water 
+  - chaparral
+  - wetland 
+  - wind turbine

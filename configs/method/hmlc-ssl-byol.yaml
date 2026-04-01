@@ -1,0 +1,5 @@
+name: hmlc-ssl-byol
+learning_task: hmlc
+training_mode: ssl
+apply_edges: false
+apply_byol: true

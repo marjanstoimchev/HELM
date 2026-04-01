@@ -1,0 +1,5 @@
+name: mlc-sl
+learning_task: mlc
+training_mode: sl
+apply_edges: false
+apply_byol: false

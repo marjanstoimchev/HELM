@@ -1,0 +1,5 @@
+name: hmlc-sl
+learning_task: hmlc
+training_mode: sl
+apply_edges: false
+apply_byol: false

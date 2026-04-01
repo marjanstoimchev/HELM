@@ -1,0 +1,37 @@
+# HELM - Hierarchical and Explicit Label Modeling
+# Install: conda create -n helm python=3.11 && conda activate helm
+# Then:    pip install -r requirements.txt
+
+# ── Core ─────────────────────────────────────────────────────────────────
+torch>=2.0
+torchvision
+lightning>=2.0
+hydra-core
+omegaconf>=2.3
+
+# ── Vision Transformer ──────────────────────────────────────────────────
+timm>=1.0
+
+# ── Augmentations ────────────────────────────────────────────────────────
+kornia>=0.7
+albumentations>=2.0
+
+# ── Self-Supervised Learning (BYOL) ──────────────────────────────────────
+lightly>=1.5
+
+# ── Graph Neural Networks ────────────────────────────────────────────────
+torch_geometric>=2.5
+
+# ── Data & Metrics ───────────────────────────────────────────────────────
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+Pillow>=9.0
+datasets>=4.0
+iterative-stratification
+
+# ── UI ───────────────────────────────────────────────────────────────────
+rich>=13.0
+
+# ── Testing (optional) ──────────────────────────────────────────────────
+pytest>=7.0

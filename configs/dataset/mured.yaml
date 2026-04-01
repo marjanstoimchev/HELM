@@ -1,0 +1,60 @@
+name: MuRed
+folder_name: mured
+num_classes: 20
+
+hierarchy:
+  Retinal Disorders:
+    Vascular Retinopathies:
+      DR: {}
+      DN: {}
+      BRVO: {}
+      CRVO: {}
+      HTR: {}
+    Degenerative Retinal Disorders:
+      ARMD: {}
+      Macular Disorders:
+        MH: {}
+        CSR: {}
+      Retinoschisis and Related Conditions:
+        RS: {}
+        TSLN: {}
+      Choroidal Disorders:
+        CNV: {}
+    Structural Retinal Changes:
+      LS: {}
+      ASR: {}
+      CRS: {}
+  Optic Nerve and Disc Disorders:
+    Optic Disc Anomalies:
+      ODC: {}
+      ODP: {}
+    Optic Disc Edema:
+      ODE: {}
+    Refractive Disorders:
+      MYA: {}
+  Other Retinal and Optic Nerve Disorders:
+    Rare Diseases:
+      OTHER: {}
+  Normal Retina:
+    NORMAL: {}
+leaf_labels:
+  - DR
+  - NORMAL
+  - MH
+  - ODC
+  - TSLN
+  - ARMD
+  - DN
+  - MYA
+  - BRVO
+  - ODP
+  - CRVO
+  - CNV
+  - RS
+  - ODE
+  - LS
+  - CSR
+  - HTR
+  - ASR
+  - CRS
+  - OTHER
