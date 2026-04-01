@@ -7,6 +7,7 @@ import torch
 import lightning as L
 from lightning import seed_everything
 from lightning.pytorch.callbacks import LearningRateMonitor
+from lightning.pytorch.loggers import CSVLogger
 from omegaconf import DictConfig, OmegaConf
 
 from data.dataset_pipeline import DatasetPipeline
@@ -103,6 +104,10 @@ def run_experiment(cfg, seed, fraction):
     )
     lightning_model = trainer_cls(config, backbone, num_leaves, learning_task, edge_index)
 
+    # Logger — logs/{dataset}/{method}/fraction_{pct}/seed_{seed}/metrics.csv
+    log_dir = os.path.join(orig_cwd, "logs", cfg.dataset.folder_name, method_name, frac_str)
+    logger = CSVLogger(save_dir=log_dir, name=f"seed_{seed}", version=0)
+
     # Callbacks
     callbacks = [
         LearningRateMonitor(logging_interval='step'),
@@ -127,6 +132,7 @@ def run_experiment(cfg, seed, fraction):
         log_every_n_steps=cfg.training.log_every_n_steps,
         enable_checkpointing=True,
         callbacks=callbacks,
+        logger=logger,
     )
     trainer.fit(lightning_model, datamodule=datamodule)
 

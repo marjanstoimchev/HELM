@@ -134,16 +134,23 @@ class SemiSupervisedGraphBYOLModel(L.LightningModule):
         return {
             'logits_h': logits_cls + logits_gcn,
             'logits': logits_cls[:, :self.num_leaves] + logits_gcn[:, :self.num_leaves],
-            'loss': total_loss,  # Total loss
+            'loss': total_loss,
+            'loss_cls': loss_cls,
+            'loss_gcn': loss_gcn,
+            'loss_byol': loss_byol,
             'x_cls': x_cls,
         }
 
     def training_step(self, batch, batch_idx):
         """Compute and return the training loss."""
-        x, u, y = batch['x'], batch.get('u'), batch['h_one_hot'] 
+        x, u, y = batch['x'], batch.get('u'), batch['h_one_hot']
         outputs = self.forward(x, y, u)
         loss = outputs['loss']
         self.log('train_loss', loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        self.log('train_loss_cls', outputs['loss_cls'], on_step=True, on_epoch=False, logger=True)
+        self.log('train_loss_gcn', outputs['loss_gcn'], on_step=True, on_epoch=False, logger=True)
+        if isinstance(outputs['loss_byol'], torch.Tensor):
+            self.log('train_loss_byol', outputs['loss_byol'], on_step=True, on_epoch=False, logger=True)
         return loss
     
     def _forward_eval(self, x, y):
