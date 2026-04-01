@@ -2,7 +2,6 @@ import os
 import numpy as np
 import pandas as pd
 from PIL import Image
-import torchxrayvision as xrv
 
 class PadChestImageReader:
     def __init__(self):

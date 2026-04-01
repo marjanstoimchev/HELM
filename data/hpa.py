@@ -1,4 +1,4 @@
-import cv2, os
+import os
 import numpy as np
 import pandas as pd
 
@@ -22,6 +22,7 @@ class HPAImageReader:
         
         colors = ['red', 'green', 'blue']
         # Stack grayscale images for red, green, blue channels
+        import cv2
         img = [cv2.imread(f"{image_data}_{color}.png", cv2.IMREAD_GRAYSCALE) for color in colors]
         
         # Stack the images into an RGB format (if all images are found)
