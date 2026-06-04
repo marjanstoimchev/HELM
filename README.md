@@ -416,3 +416,18 @@ pytest tests/test_hierarchy.py -v   # specific module
 2. Create a data loader in `data/`
 3. Register it in `DatasetFactory` (`data/utils.py`)
 4. Run: `python train.py dataset=your_dataset`
+
+## Citation
+```bash
+@article{STOIMCHEV_HELM,
+    title = {Fully- and semi-supervised hierarchical multi-label image classification with graph learning},
+    journal = {Information Sciences},
+    volume = {754},
+    pages = {123641},
+    year = {2026},
+    issn = {0020-0255},
+    doi = {https://doi.org/10.1016/j.ins.2026.123641},
+    author = {Marjan Stoimchev and Boshko Koloski and Jurica Levatić and Dragi Kocev and Sašo Džeroski}
+    }
+```
+
